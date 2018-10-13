@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/degree_spinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/AcadText"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Academic Program"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/lName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastName"
+            android:layout_below="@+id/AcadText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        |<EditText
+        android:id="@+id/lNameEditxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lName"
+        android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstName"
+            android:layout_below="@+id/lNameEditxt"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/fNameEditxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/fName"/>
+
+        <TextView
+            android:id="@+id/mName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/middleName"
+            android:layout_below="@+id/fNameEditxt"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/mNameEditxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/mName"/>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:layout_below="@+id/mNameEditxt"
+            android:layout_marginLeft="10dp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:text="@string/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/female"
+                android:text="@string/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/requirements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requirements"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <CheckBox
+            android:id="@+id/box1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/requirements"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cb1"
+            android:textSize="11dp"
+            android:layout_marginTop="5dp"/>
+        <CheckBox
+            android:id="@+id/box2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/box1"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cb2"
+            android:textSize="11dp"/>
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/box2"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cb3"
+            android:textSize="11dp"/>
+        <CheckBox
+            android:id="@+id/box4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/box3"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cb4"
+            android:textSize="11dp"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/box4"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/submit"/>
+
+    </RelativeLayout>
+</ScrollView>

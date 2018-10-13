@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Fragment Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="lastName">Last Name</string>
+    <string name="firstName">First Name</string>
+    <string name="middleName">Middle Name</string>
+    <string name="gender">Gender</string>
+    <string name="radioMale">Male</string>
+    <string name="radioFemale">Female</string>
+    <string name="cb1">Original Report Card (Form 138)</string>
+    <string name="cb2">NSO copy of Birth Certificate</string>
+    <string name="cb3">Certificate of Good Moral Character</string>
+    <string name="cb4">Certification of Junior High School Completion</string>
+    <string name="submit">Submit</string>
+</resources>
